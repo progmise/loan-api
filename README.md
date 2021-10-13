@@ -2,7 +2,11 @@
 
 API REST de prestamos, creado utilizando las tecnologías Spring Boot, PostgreSQL, JPA y Hibernate.
 
-## Pasos para configurar el ambiente local
+## 📋 Pre-requisitos 
+
+_JDK 1.8 y Maven 3.5+_
+
+## 🔧 Pasos para configurar el ambiente local
 
 **1. Clonar la aplicación**
 
@@ -30,7 +34,7 @@ mvn spring-boot:run
 ```
 La app empezará a correr en <http://localhost:8080>
 
-## Explorar la API REST
+## ⚙️ Explorar la API REST
 
 La app define los siguientes CRUD, que por ahora están incompletos.
 
@@ -53,7 +57,7 @@ La app define los siguientes CRUD, que por ahora están incompletos.
 
 Testear los mismos a través de Postman, o cualquier otra herramienta de testing de API REST.
 
-## Ejemplos de bodys de Request válidos
+## 📖 Ejemplos de bodys de Request válidos
 
 ##### <a id="postcreate">Crear User -> /api/1.0/users/</a>
 ```json
